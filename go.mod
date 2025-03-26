@@ -1,4 +1,4 @@
-module github.com/fatedier/frp
+module github.com/xxl6097/frp
 
 go 1.23.0
 

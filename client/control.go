@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,15 +20,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fatedier/frp/client/proxy"
-	"github.com/fatedier/frp/client/visitor"
-	"github.com/fatedier/frp/pkg/auth"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/transport"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/wait"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"github.com/xxl6097/frp/client/proxy"
+	"github.com/xxl6097/frp/client/visitor"
+	"github.com/xxl6097/frp/pkg/auth"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	"github.com/xxl6097/frp/pkg/msg"
+	"github.com/xxl6097/frp/pkg/transport"
+	netpkg "github.com/xxl6097/frp/pkg/util/net"
+	"github.com/xxl6097/frp/pkg/util/wait"
+	"github.com/xxl6097/frp/pkg/util/xlog"
 )
 
 type SessionContext struct {

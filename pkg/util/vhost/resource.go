@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,8 +20,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/fatedier/frp/pkg/util/log"
-	"github.com/fatedier/frp/pkg/util/version"
+	"github.com/xxl6097/frp/pkg/util/log"
+	"github.com/xxl6097/frp/pkg/util/version"
 )
 
 var NotFoundPagePath = ""
@@ -43,7 +43,7 @@ const (
 <h1>The page you requested was not found.</h1>
 <p>Sorry, the page you are looking for is currently unavailable.<br/>
 Please try again later.</p>
-<p>The server is powered by <a href="https://github.com/fatedier/frp">frp</a>.</p>
+<p>The server is powered by <a href="https://github.com/xxl6097/frp">frp</a>.</p>
 <p><em>Faithfully yours, frp.</em></p>
 </body>
 </html>

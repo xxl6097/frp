@@ -1,4 +1,4 @@
-// Copyright 2019 fatedier, fatedier@gmail.com
+// Copyright 2019 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"strconv"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
 )
 
 func init() {

@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/golib/errors"
 	"github.com/samber/lo"
+	"github.com/xxl6097/golib/errors"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/transport"
-	"github.com/fatedier/frp/pkg/util/log"
-	"github.com/fatedier/frp/pkg/util/util"
+	"github.com/xxl6097/frp/pkg/msg"
+	"github.com/xxl6097/frp/pkg/transport"
+	"github.com/xxl6097/frp/pkg/util/log"
+	"github.com/xxl6097/frp/pkg/util/util"
 )
 
 // NatHoleTimeout seconds.

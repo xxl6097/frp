@@ -1,4 +1,4 @@
-// Copyright 2018 fatedier, fatedier@gmail.com
+// Copyright 2018 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -24,9 +24,9 @@ import (
 
 	"github.com/samber/lo"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/transport"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	"github.com/xxl6097/frp/pkg/transport"
+	"github.com/xxl6097/frp/pkg/util/xlog"
 )
 
 type Manager struct {

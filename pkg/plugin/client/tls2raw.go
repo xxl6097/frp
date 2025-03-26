@@ -22,12 +22,12 @@ import (
 	"io"
 	"net"
 
-	libio "github.com/fatedier/golib/io"
+	libio "github.com/xxl6097/golib/io"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/transport"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	"github.com/xxl6097/frp/pkg/transport"
+	netpkg "github.com/xxl6097/frp/pkg/util/net"
+	"github.com/xxl6097/frp/pkg/util/xlog"
 )
 
 func init() {

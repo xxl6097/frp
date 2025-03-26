@@ -24,15 +24,15 @@ import (
 	"sync"
 	"time"
 
-	libnet "github.com/fatedier/golib/net"
 	fmux "github.com/hashicorp/yamux"
 	quic "github.com/quic-go/quic-go"
 	"github.com/samber/lo"
+	libnet "github.com/xxl6097/golib/net"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/transport"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	"github.com/xxl6097/frp/pkg/transport"
+	netpkg "github.com/xxl6097/frp/pkg/util/net"
+	"github.com/xxl6097/frp/pkg/util/xlog"
 )
 
 // Connector is an interface for establishing connections to the server.

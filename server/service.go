@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -26,34 +26,34 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/fatedier/golib/crypto"
-	"github.com/fatedier/golib/net/mux"
 	fmux "github.com/hashicorp/yamux"
 	quic "github.com/quic-go/quic-go"
 	"github.com/samber/lo"
+	"github.com/xxl6097/golib/crypto"
+	"github.com/xxl6097/golib/net/mux"
 
-	"github.com/fatedier/frp/pkg/auth"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	modelmetrics "github.com/fatedier/frp/pkg/metrics"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/nathole"
-	plugin "github.com/fatedier/frp/pkg/plugin/server"
-	"github.com/fatedier/frp/pkg/ssh"
-	"github.com/fatedier/frp/pkg/transport"
-	httppkg "github.com/fatedier/frp/pkg/util/http"
-	"github.com/fatedier/frp/pkg/util/log"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/tcpmux"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/version"
-	"github.com/fatedier/frp/pkg/util/vhost"
-	"github.com/fatedier/frp/pkg/util/xlog"
-	"github.com/fatedier/frp/server/controller"
-	"github.com/fatedier/frp/server/group"
-	"github.com/fatedier/frp/server/metrics"
-	"github.com/fatedier/frp/server/ports"
-	"github.com/fatedier/frp/server/proxy"
-	"github.com/fatedier/frp/server/visitor"
+	"github.com/xxl6097/frp/pkg/auth"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	modelmetrics "github.com/xxl6097/frp/pkg/metrics"
+	"github.com/xxl6097/frp/pkg/msg"
+	"github.com/xxl6097/frp/pkg/nathole"
+	plugin "github.com/xxl6097/frp/pkg/plugin/server"
+	"github.com/xxl6097/frp/pkg/ssh"
+	"github.com/xxl6097/frp/pkg/transport"
+	httppkg "github.com/xxl6097/frp/pkg/util/http"
+	"github.com/xxl6097/frp/pkg/util/log"
+	netpkg "github.com/xxl6097/frp/pkg/util/net"
+	"github.com/xxl6097/frp/pkg/util/tcpmux"
+	"github.com/xxl6097/frp/pkg/util/util"
+	"github.com/xxl6097/frp/pkg/util/version"
+	"github.com/xxl6097/frp/pkg/util/vhost"
+	"github.com/xxl6097/frp/pkg/util/xlog"
+	"github.com/xxl6097/frp/server/controller"
+	"github.com/xxl6097/frp/server/group"
+	"github.com/xxl6097/frp/server/metrics"
+	"github.com/xxl6097/frp/server/ports"
+	"github.com/xxl6097/frp/server/proxy"
+	"github.com/xxl6097/frp/server/visitor"
 )
 
 const (
@@ -482,7 +482,7 @@ func (svr *Service) handleConnection(ctx context.Context, conn net.Conn, interna
 
 // HandleListener accepts connections from client and call handleConnection to handle them.
 // If internal is true, it means that this listener is used for internal communication like ssh tunnel gateway.
-// TODO(fatedier): Pass some parameters of listener/connection through context to avoid passing too many parameters.
+// TODO(xxl6097): Pass some parameters of listener/connection through context to avoid passing too many parameters.
 func (svr *Service) HandleListener(l net.Listener, internal bool) {
 	// Listen for incoming connections from client.
 	for {
@@ -591,7 +591,7 @@ func (svr *Service) RegisterControl(ctlConn net.Conn, loginMsg *msg.Login, inter
 		return err
 	}
 
-	// TODO(fatedier): use SessionContext
+	// TODO(xxl6097): use SessionContext
 	ctl, err := NewControl(ctx, svr.rc, svr.pxyManager, svr.pluginManager, authVerifier, ctlConn, !internal, loginMsg, svr.cfg)
 	if err != nil {
 		xl.Warnf("create new controller error: %v", err)

@@ -17,10 +17,10 @@ package v1
 import (
 	"sync"
 
-	"github.com/fatedier/frp/pkg/util/util"
+	"github.com/xxl6097/frp/pkg/util/util"
 )
 
-// TODO(fatedier): Due to the current implementation issue of the go json library, the UnmarshalJSON method
+// TODO(xxl6097): Due to the current implementation issue of the go json library, the UnmarshalJSON method
 // of a custom struct cannot access the DisallowUnknownFields parameter of the parent decoder.
 // Here, a global variable is temporarily used to control whether unknown fields are allowed.
 // Once the v2 version is implemented by the community, we can switch to a standardized approach.

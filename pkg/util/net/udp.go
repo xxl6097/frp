@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/golib/pool"
+	"github.com/xxl6097/golib/pool"
 )
 
 type UDPPacket struct {

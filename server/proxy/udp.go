@@ -1,4 +1,4 @@
-// Copyright 2019 fatedier, fatedier@gmail.com
+// Copyright 2019 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -23,15 +23,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/fatedier/golib/errors"
-	libio "github.com/fatedier/golib/io"
+	"github.com/xxl6097/golib/errors"
+	libio "github.com/xxl6097/golib/io"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/proto/udp"
-	"github.com/fatedier/frp/pkg/util/limit"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/server/metrics"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	"github.com/xxl6097/frp/pkg/msg"
+	"github.com/xxl6097/frp/pkg/proto/udp"
+	"github.com/xxl6097/frp/pkg/util/limit"
+	netpkg "github.com/xxl6097/frp/pkg/util/net"
+	"github.com/xxl6097/frp/server/metrics"
 )
 
 func init() {

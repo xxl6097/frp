@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -24,18 +24,18 @@ import (
 	"sync"
 	"time"
 
-	libio "github.com/fatedier/golib/io"
-	libnet "github.com/fatedier/golib/net"
 	pp "github.com/pires/go-proxyproto"
+	libio "github.com/xxl6097/golib/io"
+	libnet "github.com/xxl6097/golib/net"
 	"golang.org/x/time/rate"
 
-	"github.com/fatedier/frp/pkg/config/types"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	plugin "github.com/fatedier/frp/pkg/plugin/client"
-	"github.com/fatedier/frp/pkg/transport"
-	"github.com/fatedier/frp/pkg/util/limit"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"github.com/xxl6097/frp/pkg/config/types"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	"github.com/xxl6097/frp/pkg/msg"
+	plugin "github.com/xxl6097/frp/pkg/plugin/client"
+	"github.com/xxl6097/frp/pkg/transport"
+	"github.com/xxl6097/frp/pkg/util/limit"
+	"github.com/xxl6097/frp/pkg/util/xlog"
 )
 
 var proxyFactoryRegistry = map[reflect.Type]func(*BaseProxy, v1.ProxyConfigurer) Proxy{}

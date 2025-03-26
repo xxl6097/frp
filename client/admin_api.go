@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -26,12 +26,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/fatedier/frp/client/proxy"
-	"github.com/fatedier/frp/pkg/config"
-	"github.com/fatedier/frp/pkg/config/v1/validation"
-	httppkg "github.com/fatedier/frp/pkg/util/http"
-	"github.com/fatedier/frp/pkg/util/log"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
+	"github.com/xxl6097/frp/client/proxy"
+	"github.com/xxl6097/frp/pkg/config"
+	"github.com/xxl6097/frp/pkg/config/v1/validation"
+	httppkg "github.com/xxl6097/frp/pkg/util/http"
+	"github.com/xxl6097/frp/pkg/util/log"
+	netpkg "github.com/xxl6097/frp/pkg/util/net"
 )
 
 type GeneralResponse struct {

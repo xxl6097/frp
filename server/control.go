@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -25,21 +25,21 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/fatedier/frp/pkg/auth"
-	"github.com/fatedier/frp/pkg/config"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	pkgerr "github.com/fatedier/frp/pkg/errors"
-	"github.com/fatedier/frp/pkg/msg"
-	plugin "github.com/fatedier/frp/pkg/plugin/server"
-	"github.com/fatedier/frp/pkg/transport"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/version"
-	"github.com/fatedier/frp/pkg/util/wait"
-	"github.com/fatedier/frp/pkg/util/xlog"
-	"github.com/fatedier/frp/server/controller"
-	"github.com/fatedier/frp/server/metrics"
-	"github.com/fatedier/frp/server/proxy"
+	"github.com/xxl6097/frp/pkg/auth"
+	"github.com/xxl6097/frp/pkg/config"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	pkgerr "github.com/xxl6097/frp/pkg/errors"
+	"github.com/xxl6097/frp/pkg/msg"
+	plugin "github.com/xxl6097/frp/pkg/plugin/server"
+	"github.com/xxl6097/frp/pkg/transport"
+	netpkg "github.com/xxl6097/frp/pkg/util/net"
+	"github.com/xxl6097/frp/pkg/util/util"
+	"github.com/xxl6097/frp/pkg/util/version"
+	"github.com/xxl6097/frp/pkg/util/wait"
+	"github.com/xxl6097/frp/pkg/util/xlog"
+	"github.com/xxl6097/frp/server/controller"
+	"github.com/xxl6097/frp/server/metrics"
+	"github.com/xxl6097/frp/server/proxy"
 )
 
 type ControlManager struct {
@@ -150,7 +150,7 @@ type Control struct {
 	doneCh chan struct{}
 }
 
-// TODO(fatedier): Referencing the implementation of frpc, encapsulate the input parameters as SessionContext.
+// TODO(xxl6097): Referencing the implementation of frpc, encapsulate the input parameters as SessionContext.
 func NewControl(
 	ctx context.Context,
 	rc *controller.ResourceController,

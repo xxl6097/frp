@@ -1,4 +1,4 @@
-// Copyright 2018 fatedier, fatedier@gmail.com
+// Copyright 2018 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ package msg
 import (
 	"io"
 
-	jsonMsg "github.com/fatedier/golib/msg/json"
+	jsonMsg "github.com/xxl6097/golib/msg/json"
 )
 
 type Message = jsonMsg.Message

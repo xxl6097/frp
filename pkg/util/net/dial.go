@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/url"
 
-	libnet "github.com/fatedier/golib/net"
+	libnet "github.com/xxl6097/golib/net"
 	"golang.org/x/net/websocket"
 )
 

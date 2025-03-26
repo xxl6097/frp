@@ -1,4 +1,4 @@
-// Copyright 2016 fatedier, fatedier@gmail.com
+// Copyright 2016 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fatedier/golib/crypto"
 	quic "github.com/quic-go/quic-go"
+	"github.com/xxl6097/golib/crypto"
 
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"github.com/xxl6097/frp/pkg/util/xlog"
 )
 
 type ContextGetter interface {

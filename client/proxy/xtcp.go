@@ -25,11 +25,11 @@ import (
 	fmux "github.com/hashicorp/yamux"
 	"github.com/quic-go/quic-go"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/nathole"
-	"github.com/fatedier/frp/pkg/transport"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	"github.com/xxl6097/frp/pkg/msg"
+	"github.com/xxl6097/frp/pkg/nathole"
+	"github.com/xxl6097/frp/pkg/transport"
+	netpkg "github.com/xxl6097/frp/pkg/util/net"
 )
 
 func init() {

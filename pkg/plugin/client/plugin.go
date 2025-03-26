@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -21,10 +21,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/fatedier/golib/errors"
 	pp "github.com/pires/go-proxyproto"
+	"github.com/xxl6097/golib/errors"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
 )
 
 // Creators is used for create plugins to handle connections.

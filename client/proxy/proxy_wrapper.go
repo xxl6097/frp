@@ -23,14 +23,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fatedier/golib/errors"
+	"github.com/xxl6097/golib/errors"
 
-	"github.com/fatedier/frp/client/event"
-	"github.com/fatedier/frp/client/health"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/transport"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"github.com/xxl6097/frp/client/event"
+	"github.com/xxl6097/frp/client/health"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	"github.com/xxl6097/frp/pkg/msg"
+	"github.com/xxl6097/frp/pkg/transport"
+	"github.com/xxl6097/frp/pkg/util/xlog"
 )
 
 const (

@@ -25,20 +25,20 @@ import (
 	"sync"
 	"time"
 
-	libio "github.com/fatedier/golib/io"
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
+	libio "github.com/xxl6097/golib/io"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/fatedier/frp/client/proxy"
-	"github.com/fatedier/frp/pkg/config"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/util/log"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/xlog"
-	"github.com/fatedier/frp/pkg/virtual"
+	"github.com/xxl6097/frp/client/proxy"
+	"github.com/xxl6097/frp/pkg/config"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	"github.com/xxl6097/frp/pkg/msg"
+	"github.com/xxl6097/frp/pkg/util/log"
+	netpkg "github.com/xxl6097/frp/pkg/util/net"
+	"github.com/xxl6097/frp/pkg/util/util"
+	"github.com/xxl6097/frp/pkg/util/xlog"
+	"github.com/xxl6097/frp/pkg/virtual"
 )
 
 const (

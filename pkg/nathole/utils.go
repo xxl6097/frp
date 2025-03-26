@@ -20,10 +20,10 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/fatedier/golib/crypto"
 	"github.com/pion/stun/v2"
+	"github.com/xxl6097/golib/crypto"
 
-	"github.com/fatedier/frp/pkg/msg"
+	"github.com/xxl6097/frp/pkg/msg"
 )
 
 func EncodeMessage(m msg.Message, key []byte) ([]byte, error) {

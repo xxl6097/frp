@@ -1,4 +1,4 @@
-// Copyright 2019 fatedier, fatedier@gmail.com
+// Copyright 2019 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,13 +15,13 @@
 package controller
 
 import (
-	"github.com/fatedier/frp/pkg/nathole"
-	plugin "github.com/fatedier/frp/pkg/plugin/server"
-	"github.com/fatedier/frp/pkg/util/tcpmux"
-	"github.com/fatedier/frp/pkg/util/vhost"
-	"github.com/fatedier/frp/server/group"
-	"github.com/fatedier/frp/server/ports"
-	"github.com/fatedier/frp/server/visitor"
+	"github.com/xxl6097/frp/pkg/nathole"
+	plugin "github.com/xxl6097/frp/pkg/plugin/server"
+	"github.com/xxl6097/frp/pkg/util/tcpmux"
+	"github.com/xxl6097/frp/pkg/util/vhost"
+	"github.com/xxl6097/frp/server/group"
+	"github.com/xxl6097/frp/server/ports"
+	"github.com/xxl6097/frp/server/visitor"
 )
 
 // All resource managers and controllers

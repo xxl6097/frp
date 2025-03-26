@@ -1,4 +1,4 @@
-// Copyright 2016 fatedier, fatedier@gmail.com
+// Copyright 2016 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"os"
 
-	"github.com/fatedier/golib/log"
+	"github.com/xxl6097/golib/log"
 )
 
 var (

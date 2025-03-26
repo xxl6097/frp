@@ -24,14 +24,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/golib/errors"
-	libio "github.com/fatedier/golib/io"
+	"github.com/xxl6097/golib/errors"
+	libio "github.com/xxl6097/golib/io"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/proto/udp"
-	"github.com/fatedier/frp/pkg/util/limit"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
+	v1 "github.com/xxl6097/frp/pkg/config/v1"
+	"github.com/xxl6097/frp/pkg/msg"
+	"github.com/xxl6097/frp/pkg/proto/udp"
+	"github.com/xxl6097/frp/pkg/util/limit"
+	netpkg "github.com/xxl6097/frp/pkg/util/net"
 )
 
 func init() {

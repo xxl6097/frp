@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -27,13 +27,13 @@ import (
 	"strings"
 	"time"
 
-	libio "github.com/fatedier/golib/io"
-	"github.com/fatedier/golib/pool"
+	libio "github.com/xxl6097/golib/io"
+	"github.com/xxl6097/golib/pool"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 
-	httppkg "github.com/fatedier/frp/pkg/util/http"
-	"github.com/fatedier/frp/pkg/util/log"
+	httppkg "github.com/xxl6097/frp/pkg/util/http"
+	"github.com/xxl6097/frp/pkg/util/log"
 )
 
 var ErrNoRouteFound = errors.New("no route found")

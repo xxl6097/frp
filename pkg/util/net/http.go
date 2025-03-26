@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fatedier/frp/pkg/util/util"
+	"github.com/xxl6097/frp/pkg/util/util"
 )
 
 type HTTPAuthMiddleware struct {

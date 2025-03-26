@@ -1,4 +1,4 @@
-// Copyright 2018 fatedier, fatedier@gmail.com
+// Copyright 2018 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,9 +19,9 @@ import (
 	"strconv"
 	"sync"
 
-	gerr "github.com/fatedier/golib/errors"
+	gerr "github.com/xxl6097/golib/errors"
 
-	"github.com/fatedier/frp/server/ports"
+	"github.com/xxl6097/frp/server/ports"
 )
 
 // TCPGroupCtl manage all TCPGroups

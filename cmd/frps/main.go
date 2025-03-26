@@ -1,4 +1,4 @@
-// Copyright 2018 fatedier, fatedier@gmail.com
+// Copyright 2018 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 package main
 
 import (
-	_ "github.com/fatedier/frp/assets/frps"
-	_ "github.com/fatedier/frp/pkg/metrics"
-	"github.com/fatedier/frp/pkg/util/system"
+	_ "github.com/xxl6097/frp/assets/frps"
+	_ "github.com/xxl6097/frp/pkg/metrics"
+	"github.com/xxl6097/frp/pkg/util/system"
 )
 
 func main() {

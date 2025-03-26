@@ -1,4 +1,4 @@
-// Copyright 2019 fatedier, fatedier@gmail.com
+// Copyright 2019 xxl6097, xxl6097@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import (
 	"net"
 	"time"
 
-	libnet "github.com/fatedier/golib/net"
+	libnet "github.com/xxl6097/golib/net"
 )
 
 var FRPTLSHeadByte = 0x17
