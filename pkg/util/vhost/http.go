@@ -27,8 +27,8 @@ import (
 	"strings"
 	"time"
 
-	libio "github.com/xxl6097/golib/io"
-	"github.com/xxl6097/golib/pool"
+	libio "github.com/fatedier/golib/io"
+	"github.com/fatedier/golib/pool"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 

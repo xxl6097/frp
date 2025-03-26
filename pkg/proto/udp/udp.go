@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xxl6097/golib/errors"
-	"github.com/xxl6097/golib/pool"
+	"github.com/fatedier/golib/errors"
+	"github.com/fatedier/golib/pool"
 
 	"github.com/xxl6097/frp/pkg/msg"
 )

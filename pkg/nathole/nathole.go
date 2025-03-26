@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xxl6097/golib/pool"
+	"github.com/fatedier/golib/pool"
 	"golang.org/x/net/ipv4"
 	"k8s.io/apimachinery/pkg/util/sets"
 

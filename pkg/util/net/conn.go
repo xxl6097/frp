@@ -22,8 +22,8 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/fatedier/golib/crypto"
 	quic "github.com/quic-go/quic-go"
-	"github.com/xxl6097/golib/crypto"
 
 	"github.com/xxl6097/frp/pkg/util/xlog"
 )

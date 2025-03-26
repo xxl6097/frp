@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/fatedier/golib/crypto"
 	"github.com/samber/lo"
-	"github.com/xxl6097/golib/crypto"
 
 	"github.com/xxl6097/frp/client/proxy"
 	"github.com/xxl6097/frp/pkg/auth"

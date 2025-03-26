@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
+	libio "github.com/fatedier/golib/io"
 	fmux "github.com/hashicorp/yamux"
 	quic "github.com/quic-go/quic-go"
-	libio "github.com/xxl6097/golib/io"
 	"golang.org/x/time/rate"
 
 	v1 "github.com/xxl6097/frp/pkg/config/v1"

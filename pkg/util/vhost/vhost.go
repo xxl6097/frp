@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xxl6097/golib/errors"
+	"github.com/fatedier/golib/errors"
 
 	"github.com/xxl6097/frp/pkg/util/log"
 	netpkg "github.com/xxl6097/frp/pkg/util/net"

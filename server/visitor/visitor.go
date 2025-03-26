@@ -21,7 +21,7 @@ import (
 	"slices"
 	"sync"
 
-	libio "github.com/xxl6097/golib/io"
+	libio "github.com/fatedier/golib/io"
 
 	netpkg "github.com/xxl6097/frp/pkg/util/net"
 	"github.com/xxl6097/frp/pkg/util/util"

@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	libio "github.com/xxl6097/golib/io"
+	libio "github.com/fatedier/golib/io"
 	"golang.org/x/time/rate"
 
 	"github.com/xxl6097/frp/pkg/config/types"

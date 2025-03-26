@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"os"
 
-	"github.com/xxl6097/golib/log"
+	"github.com/fatedier/golib/log"
 )
 
 var (

@@ -21,8 +21,8 @@ import (
 	"net"
 	"sync"
 
+	"github.com/fatedier/golib/errors"
 	pp "github.com/pires/go-proxyproto"
-	"github.com/xxl6097/golib/errors"
 
 	v1 "github.com/xxl6097/frp/pkg/config/v1"
 )

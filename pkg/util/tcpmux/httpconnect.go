@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"time"
 
-	libnet "github.com/xxl6097/golib/net"
+	libnet "github.com/fatedier/golib/net"
 
 	httppkg "github.com/xxl6097/frp/pkg/util/http"
 	"github.com/xxl6097/frp/pkg/util/vhost"

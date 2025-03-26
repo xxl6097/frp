@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/fatedier/golib/errors"
 	"github.com/samber/lo"
-	"github.com/xxl6097/golib/errors"
 	"golang.org/x/sync/errgroup"
 
 	"github.com/xxl6097/frp/pkg/msg"

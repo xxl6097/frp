@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
+	libnet "github.com/fatedier/golib/net"
 	fmux "github.com/hashicorp/yamux"
 	quic "github.com/quic-go/quic-go"
 	"github.com/samber/lo"
-	libnet "github.com/xxl6097/golib/net"
 
 	v1 "github.com/xxl6097/frp/pkg/config/v1"
 	"github.com/xxl6097/frp/pkg/transport"

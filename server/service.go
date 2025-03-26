@@ -26,11 +26,11 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/fatedier/golib/crypto"
+	"github.com/fatedier/golib/net/mux"
 	fmux "github.com/hashicorp/yamux"
 	quic "github.com/quic-go/quic-go"
 	"github.com/samber/lo"
-	"github.com/xxl6097/golib/crypto"
-	"github.com/xxl6097/golib/net/mux"
 
 	"github.com/xxl6097/frp/pkg/auth"
 	v1 "github.com/xxl6097/frp/pkg/config/v1"

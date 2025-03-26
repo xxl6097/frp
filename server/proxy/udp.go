@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/xxl6097/golib/errors"
-	libio "github.com/xxl6097/golib/io"
+	"github.com/fatedier/golib/errors"
+	libio "github.com/fatedier/golib/io"
 
 	v1 "github.com/xxl6097/frp/pkg/config/v1"
 	"github.com/xxl6097/frp/pkg/msg"

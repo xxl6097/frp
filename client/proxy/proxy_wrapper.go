@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/xxl6097/golib/errors"
+	"github.com/fatedier/golib/errors"
 
 	"github.com/xxl6097/frp/client/event"
 	"github.com/xxl6097/frp/client/health"

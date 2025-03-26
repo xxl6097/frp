@@ -25,7 +25,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/xxl6097/golib/pool"
+	"github.com/fatedier/golib/pool"
 
 	v1 "github.com/xxl6097/frp/pkg/config/v1"
 	"github.com/xxl6097/frp/pkg/util/log"

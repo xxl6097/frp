@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"strings"
 
-	libio "github.com/xxl6097/golib/io"
+	libio "github.com/fatedier/golib/io"
 
 	v1 "github.com/xxl6097/frp/pkg/config/v1"
 	"github.com/xxl6097/frp/pkg/util/limit"

@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"sync"
 
-	gerr "github.com/xxl6097/golib/errors"
+	gerr "github.com/fatedier/golib/errors"
 
 	"github.com/xxl6097/frp/server/ports"
 )

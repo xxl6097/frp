@@ -20,7 +20,7 @@ import (
 	"net"
 	"sync"
 
-	gerr "github.com/xxl6097/golib/errors"
+	gerr "github.com/fatedier/golib/errors"
 
 	v1 "github.com/xxl6097/frp/pkg/config/v1"
 	"github.com/xxl6097/frp/pkg/util/tcpmux"

@@ -26,8 +26,8 @@ import (
 	"strings"
 	"time"
 
-	libio "github.com/xxl6097/golib/io"
-	libnet "github.com/xxl6097/golib/net"
+	libio "github.com/fatedier/golib/io"
+	libnet "github.com/fatedier/golib/net"
 
 	v1 "github.com/xxl6097/frp/pkg/config/v1"
 	netpkg "github.com/xxl6097/frp/pkg/util/net"

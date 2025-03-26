@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
+	libio "github.com/fatedier/golib/io"
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
-	libio "github.com/xxl6097/golib/io"
 	"golang.org/x/crypto/ssh"
 
 	"github.com/xxl6097/frp/client/proxy"

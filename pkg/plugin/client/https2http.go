@@ -27,8 +27,8 @@ import (
 	"net/http/httputil"
 	"time"
 
+	"github.com/fatedier/golib/pool"
 	"github.com/samber/lo"
-	"github.com/xxl6097/golib/pool"
 
 	v1 "github.com/xxl6097/frp/pkg/config/v1"
 	"github.com/xxl6097/frp/pkg/transport"

@@ -20,7 +20,7 @@ import (
 	"net"
 	"time"
 
-	libnet "github.com/xxl6097/golib/net"
+	libnet "github.com/fatedier/golib/net"
 )
 
 var FRPTLSHeadByte = 0x17
